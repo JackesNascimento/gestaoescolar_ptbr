@@ -1,11 +1,10 @@
 <h1 align="center"><img src="public/appname.svg" width="500"></h1>
 
-## Version 2.X is here!!
+## A versão 2.X está aqui!!
+Para a Versão 1.X, veja as [releases](https://github.com/changeweb/Unifiedtransform/releases). Continuation of Version 1.X support in **[v1-x-branch](https://github.com/changeweb/Unifiedtransform/tree/v1-x-branch)**.
 
-For Version 1.X, view [releases](https://github.com/changeweb/Unifiedtransform/releases). Continuation of Version 1.X support in **[v1-x-branch](https://github.com/changeweb/Unifiedtransform/tree/v1-x-branch)** branch.
-</p>
 <p align="center">
-School Management and Accounting Software
+Software de gestão e contabilidade escolar
 </p>
 
 [![Build Status](https://travis-ci.org/changeweb/Unifiedtransform.svg?branch=master)](https://travis-ci.org/changeweb/Unifiedtransform)
@@ -15,20 +14,20 @@ School Management and Accounting Software
 [![MadeWithLaravel.com shield](https://madewithlaravel.com/storage/repo-shields/1362-shield.svg)](https://madewithlaravel.com/p/unifiedtransform/shield-link)
 [![Discord](https://img.shields.io/discord/917848091107946556)](https://discord.gg/8sz6kpup99)
 
-We like to challenge the quality of what we build to make it better. To do so, we try to make the product intuitive, beautiful, and user friendly. Innovation and hard work help to fulfill these requirements. I believe in order to innovate we need to think differently. A few months ago I discovered there was no open source free school management software that met my quality standards. I happen to know a bit of programming so I decided to make one. I also believe that working with more people can push the standard higher than working alone. So I decided to make it open source and free.
+Gostamos de desafiar a qualidade do que construímos para torná-lo melhor. Para isso, tentamos tornar o produto intuitivo, bonito e fácil de usar. A inovação e o trabalho árduo ajudam a cumprir estes requisitos. Acredito que para inovar precisamos pensar diferente. Alguns meses atrás, descobri que não havia software de gerenciamento escolar gratuito de código aberto que atendesse aos meus padrões de qualidade. Acontece que eu sei um pouco de programação, então decidi fazer um. Também acredito que trabalhar com mais pessoas pode elevar o padrão mais alto do que trabalhar sozinho. Então decidi torná-lo de código aberto e gratuito.
 
-## Featured on Laravel News !!
+## Destaque no Laravel News !!
 ![Screenshot_2019-04-07 Laravel News](https://user-images.githubusercontent.com/9896315/55683832-1b3c8c80-5966-11e9-8dfb-ab30a79a98ed.png)
-See the news [here](https://laravel-news.com/unified-transform-open-source-school-management-platform)
+Veja as novidades [aqui](https://laravel-news.com/unified-transform-open-source-school-management-platform)
 
-## Framework used
+## Framework usado
 
 - Laravel 8.X
 - Bootstrap 5.X
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-39-17 Unifiedtransform.png"></h1>
 
-## Server Requirements
+## Requisitos do servidor
 
 - PHP >= 7.4
 - OpenSSL PHP Extension
@@ -37,10 +36,10 @@ See the news [here](https://laravel-news.com/unified-transform-open-source-schoo
 - Tokenizer PHP Extension
 - XML PHP Extension
 
-## Testing
+## Teste
 
-- We want testable softwares. Most parts of the software in the previous version 1.x were covered by tests. Lets cover version 2.x as well. You also can contribute by writing test case!
-- To run Feature and Unit Tests run following commands:
+- Queremos softwares testáveis. A maioria das partes do software na versão anterior 1.x foram cobertas por testes. Vamos cobrir a versão 2.x também. Você também pode contribuir escrevendo casos de teste!
+- Para executar Testes de Recurso e Unidade, execute os seguintes comandos:
 
     ```sh
     $ docker exec -it app sh
@@ -48,60 +47,60 @@ See the news [here](https://laravel-news.com/unified-transform-open-source-schoo
     :/# php artisan test
     ```
 
-## License
+## Licença
 
 GNU General Public License v3.0
 
-## Contribute
+## Contribuir
 
-Unifiedtransform is 100% open source and free forever!!
+Unifiedtransform é 100% de código aberto e gratuito para sempre!!
 
-Community contribution can make this product better!!
+A contribuição da comunidade pode melhorar este produto!!
 
-When you contribute to a Github project you agree with this terms of [Github Terms of Service(Contributions Under Repository License)](https://help.github.com/en/articles/github-terms-of-service#6-contributions-under-repository-license).
+Ao contribuir para um projeto do Github, você concorda com estes termos dos [Termos de Serviço do Github(Contributions Under Repository License)](https://help.github.com/en/articles/github-terms-of-service#6-contributions-under-repository-license).
 
-Since this project is under **GNU General Public License v3.0**, according to Github's Terms of Service all your contributions are also under the same license terms.
-Thus you permit the user of this software to use your contribution under the terms of **GNU General Public License v3.0**.
+Como este projeto está sob a **GNU General Public License v3.0**, de acordo com os Termos de Serviço do Github, todas as suas contribuições também estão sob os mesmos termos de licença.
+Assim, você permite que o usuário deste software use sua contribuição sob os termos da **GNU General Public License v3.0**.
 
-## Whats New
-v2.X is built from scratch. Both UI and internal workflow of the application are changed to a better design.
+## O que há de novo
+v2.X é construído a partir do zero. Tanto a interface do usuário quanto o fluxo de trabalho interno do aplicativo foram alterados para um design melhor.
 
-## Features yet to be migrated from v1.X to v2.X
-Following features that exist in v1.X will be added in v2.X as well in future.
+## Recursos ainda a serem migrados de v1.X para v2.X
+Os seguintes recursos que existem na v1.X serão adicionados na v2.X também no futuro.
 
-- Stripe payment
-- Messaging
-- Managing library
-- Managing Income and Expenses
-- Mass student and teachers export and import.
-- Printing reports
-- Managing certificates.
-- Supported other languages (Spanish, ...).
+- Pagamento por faixa
+- Mensagens
+- Gerenciamento de biblioteca
+- Gestão de receitas e despesas
+- Exportação e importação de estudantes e professores em massa.
+- Impressão de relatórios
+- Gerenciamento de certificados.
+- Outros idiomas suportados (espanhol, ...).
 
-## How to Start
-### Using Docker Container:
+## Como começar
+### Usando o Docker Container:
 
-**[Docker](https://www.docker.com/)** is now supported and improved.
+**[Docker](https://www.docker.com/)** agora é suportado e melhorado.
 
-[How To Set Up Laravel, Nginx, and MySQL With Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose-on-ubuntu-20-04)
+[Como configurar Laravel, Nginx e MySQL com o Docker Compose no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose-on-ubuntu-20-04)
 
-With the improved Docker setup, you will get:
+Com a configuração aprimorada do Docker, você obterá:
 - Nginx
 - PHP 7.4
 - MySQL 5.7
 
-### Steps to install:
-1. Clone or donwload the repository.
-2. Create **purify** folder in `storage/app/` directory.
-3. Run `cp .env.example .env`.
-4. Run `docker-compose up -d`.
-5. Run `docker exec -it db sh`. Inside the shell, run:
+### Passos para instalar:
+1. Clone ou baixe o repositório.
+2. Crie a pasta **purify** no diretório `storage/app/`.
+3. Execute `cp .env.example .env`.
+4. Execute `docker-compose up -d`.
+5. Execute `docker exec -it db sh`. Dentro do shell, execute:
 
     ```sh
     :/# mysql -u root -p
     ```
 
-    Mysql **Root password**: `your_mysql_root_password` in the `docker-compose.yml` file. Then run following commands:
+    Mysql **Root password**: `your_mysql_root_password` no arquivo `docker-compose.yml`. Em seguida, execute os seguintes comandos:
 
     ```sql
     mysql> SHOW DATABASES;
@@ -109,8 +108,8 @@ With the improved Docker setup, you will get:
     mysql> FLUSH PRIVILEGES;
     mysql> EXIT;
     ```
-6. Finally, exit the container by running `exit` in the container shell.
-7. Run `docker exec -it app sh`. Inside the shell, run following commands:
+6. Por fim, saia do contêiner executando `exit` no shell do contêiner.
+7. Execute `docker exec -it app sh`. Dentro do shell, execute os seguintes comandos:
 
     ```sh
     :/# composer install
@@ -119,90 +118,90 @@ With the improved Docker setup, you will get:
     :/# php artisan migrate:fresh --seed
     ```
 
-    Then exit from the container.
-8. Visit **http://localhost:8080**. Admin login credentials:
+    Em seguida, saia do container.
+8. Visite **http://localhost:8080**. Credenciais de login do administrador:
 
     - Email: admin@ut.com
     - Password: password
 
-## Steps to follow:
-Please carefully follow the steps to setup the school.
+## Passos a seguir:
+Por favor, siga cuidadosamente os passos para configurar a escola.
 
-**Role: Admin**
+**Função: Admin**
 
-**School Dashboard**
+**Painel Escolar**
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-27-05 Unifiedtransform.png"></h1>
 
-### 1. Create a School Session:
-After logging in for the first time, you will see following message at the top nav bar.
+### 1. Crie uma Sessão Escolar:
+Depois de fazer login pela primeira vez, você verá a seguinte mensagem na barra de navegação superior.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-31-38 Unifiedtransform.png"></h1>
 
-To create a new session, go to **Academic Settings** page.
+Para criar uma nova sessão, acesse a página **Configurações acadêmicas**.
 
-#### Academic Settings page:
+#### Página de configurações acadêmicas:
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-32-44 Unifiedtransform.png"></h1>
 
-Successful creation of session using following form will display success message:
+A criação bem-sucedida da sessão usando o seguinte formulário exibirá a mensagem de sucesso:
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-33-45 Unifiedtransform.png"></h1>
 
-### 2. Create a Semester
-Now create a semester. A semester duration usually is 3 - 6 months.
+### 2. Crie um semestre
+Agora crie um semestre. A duração do semestre geralmente é de 3 a 6 meses.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-34-45 Unifiedtransform.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-36-39 Unifiedtransform.png"></h1>
 
-### 3. Create classes
-Now create classes. Give common names such as: **Class 1** or **Class 11 (Science)**.
+### 3. Crie turmas
+Agora crie classes. Dê nomes comuns como: **Classe 1** ou **Classe 11 (Ciências)**.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-35-16 Unifiedtransform.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-37-26 Unifiedtransform.png"></h1>
 
-### 4. Create sections
-Now create sections for each classes. Give section's name (e.g.: Section A, Section B), room number and assign them to respective class.
+### 4. Crie seções
+Agora crie seções para cada classe. Dê o nome da seção (por exemplo: Seção A, Seção B), número da sala e atribua-os à respectiva classe.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-36-27 Unifiedtransform.png"></h1>
 
-### 5. Create Courses
-Now create courses and assign them to respective semester and class.
+### 5. Crie cursos
+Agora crie cursos e atribua-os ao respectivo semestre e turma.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-38-13 Unifiedtransform.png"></h1>
 
-### 6. Set attendance type
-Attendance can be maintained in two ways: 1. By section, 2. By course. Stick to one type for a semester. Default: **By section**.
+### 6. Defina o tipo de presença
+A frequência pode ser mantida de duas maneiras: 1. Por seção, 2. Por curso. Atenha-se a um tipo por um semestre. Padrão: **Por seção**.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-37-09 Unifiedtransform.png"></h1>
 
-### 7. Add teachers
-Now add teachers.
+### 7. Adicionar professores
+Agora adicione professores.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-11-34 Unifiedtransform.png"></h1>
 
-### 8. Assign teacher
-Now assign teachers to semester, class, section, and course.
+### 8. Atribuir professor
+Agora atribua professores a semestre, turma, seção e curso.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-12-05 Unifiedtransform.png"></h1>
 
-### 9. Add students
-Now add students and assign them to class, and section.
+### 9. Adicionar alunos
+Agora adicione alunos e atribua-os à classe e à seção.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-43-37 Unifiedtransform.png"></h1>
 
-### 10. View added teachers and students
-Now browse to **View Teachers** and **View Students** pages.
+### 10. Ver professores e alunos adicionados
+Agora navegue até as páginas **Ver professores** e **Ver alunos**.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 00-55-18 Unifiedtransform.png"></h1>
 
-### 11. View student and teacher profile
-Now browse to **Profile** from student and teacher list.
+### 11. Veja o perfil do aluno e do professor
+Agora navegue até **Perfil** na lista de alunos e professores.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 18-29-30 Unifiedtransform.png"></h1>
 
-### 12. View and Edit Classes and Sections
-Now go to **Classes**. Here you can view all classes and their respective sections, syllabi, and courses. Classes, sections, and courses can be edited from here.
+### 12. Visualize e edite classes e seções
+Agora vá para **Aulas**. Aqui você pode ver todas as aulas e suas respectivas seções, programas e cursos. Aulas, seções e cursos podem ser editados a partir daqui.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-30-30 Unifiedtransform.png"></h1>
 
@@ -210,51 +209,51 @@ Now go to **Classes**. Here you can view all classes and their respective sectio
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-31-14 Unifiedtransform.png"></h1>
 
-### 13. Create Grading Systems
-Now create grading system for each class and a semester.
+### 13. Crie sistemas de classificação
+Agora crie um sistema de notas para cada turma e um semestre.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-32-31 Unifiedtransform.png"></h1>
 
-### 14. View Grading Systems
-Now browse to created Grading Systems.
+### 14. Visualizar sistemas de classificação
+Agora navegue até os sistemas de classificação criados.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-33-23 Unifiedtransform.png"></h1>
 
-### 15. Add and view Grading System Rules
-Now add rules to the grading system and browse them.
+### 15. Adicione e visualize as regras do sistema de classificação
+Agora adicione regras ao sistema de classificação e navegue por elas.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-33-36 Unifiedtransform.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 12-16-04 Unifiedtransform.png"></h1>
 
-### 16. Add Notices
-Admin can add notice. Right now, notices can be written using a rich text editor.
+### 16. Adicionar avisos
+O administrador pode adicionar um aviso. No momento, os avisos podem ser escritos usando um editor de rich text.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-03-55 Unifiedtransform.png"></h1>
 
-### 17. Create Events
-Events can be created inside a calendar. Click and drag on a date or time period to prompt the input box. An already created event can be **deleted** by clicking on the event.
+### 17. Crie eventos
+Os eventos podem ser criados dentro de um calendário. Clique e arraste em uma data ou período de tempo para exibir a caixa de entrada. Um evento já criado pode ser **excluído** clicando no evento.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot from 2021-12-07 01-24-28.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-26-18 Unifiedtransform.png"></h1>
 
-### 18. Create and view Routines
-Routines can be created for each class and section.
+### 18. Crie e visualize rotinas
+As rotinas podem ser criadas para cada classe e seção.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-27-54 Unifiedtransform.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 02-26-21 Unifiedtransform.png"></h1>
 
-### 19. Add Syllabi
-Syllabus for each class and course can be added. Admin can view them from **Classes** page. Syllabus can be downloaded.
+### 19. Adicionar programa de estudos
+Programa de estudos para cada classe e curso pode ser adicionado. O administrador pode visualizá-los na página **Classes**. O programa pode ser baixado.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 18-14-31 Unifiedtransform.png"></h1>
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 01-55-50 Unifiedtransform.png"></h1>
 
-### 20. Browse by Sessions
-You can browse previous sessions like a snapshot. This mode is **Read only**. Nobody should be able to change the previous sessions' data.
+### 20. Navegue por sessões
+Você pode navegar pelas sessões anteriores como um instantâneo. Este modo é **Somente leitura**. Ninguém deve poder alterar os dados das sessões anteriores.
 
 <h1 align="center"><img src="public/docs/imgs/ut/Screenshot 2021-12-07 at 02-28-23 Unifiedtransform.png"></h1>
 
